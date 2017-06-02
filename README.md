@@ -8,6 +8,12 @@ This project uses ipopt for a simple optimization problem using finite differenc
 
 - Windows 10 - mingw64
 
+## How to use:
+
+- Create a class inhering from `OptInterface` and define some optimization parameters and functions as x low and upper bounds; gradient low and upper bounds; objective function (override) and constraint function (override). In this case it is the `optexample1.h/myExample1`.
+
+- Create the `main` function, which defines the case example, the Ipopt C++ wrapper class `TNLP`. To run the optimization call `createAppAndRun(nlp);`
+
 ## TODO:
 
 - Test on debian

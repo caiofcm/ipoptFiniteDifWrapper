@@ -24,10 +24,5 @@ int main(int argv, char* argc[]){
   myExample1 aow;
   OptInterface *optI = &aow;
   SmartPtr<TNLP> nlp = new cfcmINLP(optI);
-  TNLP *rawP = GetRawPtr(nlp);
   createAppAndRun(nlp);
-  cout << "Started x is \n";
-  for(int i=0; i<aow.x0.size(); ++i)
-    cout << aow.x0[i] << ' ';
-  cout << "\n";
 }
