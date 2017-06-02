@@ -6,11 +6,11 @@ This project uses ipopt for a simple optimization problem using finite differenc
 
 ## Tested on:
 
-	- Windows 10 - mingw64
+- Windows 10 - mingw64
 
 ## TODO:
 
-	- Test on debian
-	- Check how the Ipopt was installed
+- Test on debian
+- Check how the Ipopt was installed
 
-*(Note: was used the newcppproject.sh to generate the Makefile)*
+*(Note: was used the [newcppproject.sh](https://gist.github.com/caiofcm/83d4d3d2370546d846454ff74dea7348) to generate the Makefile)*
