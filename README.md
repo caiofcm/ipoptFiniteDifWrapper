@@ -11,5 +11,6 @@ This project uses ipopt for a simple optimization problem using finite differenc
 ## TODO:
 
 	- Test on debian
+	- Check how the Ipopt was installed
 
 *(Note: was used the newcppproject.sh to generate the Makefile)*
